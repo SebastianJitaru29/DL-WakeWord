@@ -6,11 +6,15 @@ authors = ["Sebastian Jitaru <sjitaru29@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
-numpy = "^2.2.0"
-kaggle = "^1.6.17"
-torch = "^2.5.1"
-pandas = "^2.2.3"
+python = ">=3.10,<3.13"
+openwakeword = "^0.6.0"
+speechbrain = "^1.0.2"
+pronouncing = "^0.2.0"
+audiomentations = "^0.38.0"
+torch-audiomentations = "^0.11.2"
+mutagen = "^1.47.0"
+acoustics = "^0.2.6"
+datasets = "^3.2.0"
 
 
 [tool.poetry.group.dev.dependencies]

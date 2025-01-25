@@ -15,6 +15,7 @@ torch-audiomentations = "^0.11.2"
 mutagen = "^1.47.0"
 acoustics = "^0.2.6"
 datasets = "^3.2.0"
+tflite-runtime = "2.14.0"
 
 
 [tool.poetry.group.dev.dependencies]
